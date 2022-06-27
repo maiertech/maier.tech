@@ -62,6 +62,14 @@ const tags: Tag[] = [
     path: `${base}/tags/seo`,
   },
   {
+    id: 'svg',
+    label: 'SVG',
+    title: 'SVG fundamentals',
+    description:
+      'Data visualization requires drawing SVGs. I write about SVG fundamentals for data visualization.',
+    path: `${base}/tags/sveltekit`,
+  },
+  {
     id: 'til',
     label: 'TIL',
     title: 'Today I Learned (TIL)',
