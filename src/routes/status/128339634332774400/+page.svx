@@ -1,0 +1,7 @@
+---
+published: Mon Oct 24 05:18:47 +0000 2011
+next: '132356055714906112'
+---
+
+Switched back to #Ubuntu #lucid LTS on #T410. Works without glitch, even fan. Working installation
+is #natty on #virtualbox.
