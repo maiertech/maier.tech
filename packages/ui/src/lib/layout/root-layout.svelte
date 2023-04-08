@@ -4,11 +4,9 @@
 
 <div class="wrapper">
 	{#if $$slots.header}
-		<header>
-			<Container>
-				<slot name="header" />
-			</Container>
-		</header>
+		<div class="header">
+			<slot name="header" />
+		</div>
 	{/if}
 
 	<div class="main">
@@ -18,9 +16,9 @@
 	</div>
 
 	{#if $$slots.footer}
-		<footer>
+		<div class="footer">
 			<slot name="footer" />
-		</footer>
+		</div>
 	{/if}
 </div>
 
@@ -32,7 +30,7 @@
 		min-height: 100vh;
 	}
 
-	header {
+	.header {
 		flex-shrink: 0;
 	}
 
@@ -42,7 +40,7 @@
 		margin-inline: auto;
 	}
 
-	footer {
+	.footer {
 		flex-shrink: 0;
 	}
 </style>
